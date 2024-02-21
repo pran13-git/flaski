@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # test route decorator
 @app.route('/')
-def welcome():
+def index():
     #  return ("<h1>welcome</h1>")
     return render_template('index.html')
 
